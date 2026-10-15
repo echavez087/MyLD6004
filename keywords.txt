@@ -1,0 +1,92 @@
+# Syntax coloring for MyLD6004
+# https://arduino.github.io/arduino-cli/library-specification/
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+MyLD6004	KEYWORD1
+Target	KEYWORD1
+FirmwareInfo	KEYWORD1
+ZoneBounds	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin	KEYWORD2
+update	KEYWORD2
+isPersonDetected	KEYWORD2
+getTargetCount	KEYWORD2
+getTarget	KEYWORD2
+getZoneOccupancy	KEYWORD2
+setZone	KEYWORD2
+requestZones	KEYWORD2
+getZone	KEYWORD2
+setSensitivity	KEYWORD2
+requestSensitivity	KEYWORD2
+getSensitivity	KEYWORD2
+setTriggerSpeed	KEYWORD2
+requestTriggerSpeed	KEYWORD2
+getTriggerSpeed	KEYWORD2
+setHoldDelay	KEYWORD2
+requestHoldDelay	KEYWORD2
+getHoldDelay	KEYWORD2
+setInstallationMode	KEYWORD2
+requestInstallationMode	KEYWORD2
+getInstallationMode	KEYWORD2
+setOutputInterval	KEYWORD2
+requestOutputInterval	KEYWORD2
+getOutputInterval	KEYWORD2
+queryFirmware	KEYWORD2
+getFirmwareVersion	KEYWORD2
+isConnected	KEYWORD2
+lastUpdateAge	KEYWORD2
+resetCounters	KEYWORD2
+bytesReceived	KEYWORD2
+framesReceived	KEYWORD2
+checksumErrors	KEYWORD2
+setP20Mode	KEYWORD2
+requestP20Status	KEYWORD2
+p20Mode	KEYWORD2
+setOperatingMode	KEYWORD2
+requestOperatingMode	KEYWORD2
+operatingMode	KEYWORD2
+setZoneIfUnset	KEYWORD2
+setZAxisRange	KEYWORD2
+requestZAxisRange	KEYWORD2
+getZAxisRange	KEYWORD2
+setLowPowerSleepTime	KEYWORD2
+requestLowPowerSleepTime	KEYWORD2
+getLowPowerSleepTime	KEYWORD2
+setStayZoneLifecycle	KEYWORD2
+requestStayZoneLifecycle	KEYWORD2
+getStayZoneLifecycle	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+SENSITIVITY_LOW	LITERAL1
+SENSITIVITY_MEDIUM	LITERAL1
+SENSITIVITY_HIGH	LITERAL1
+
+TRIGGER_SLOW	LITERAL1
+TRIGGER_MEDIUM	LITERAL1
+TRIGGER_FAST	LITERAL1
+
+INSTALL_CEILING	LITERAL1
+INSTALL_WALL	LITERAL1
+
+MODE_NORMAL	LITERAL1
+MODE_LOW_POWER	LITERAL1
+MODE_RADAR_OFF_HIGH	LITERAL1
+MODE_RADAR_OFF_LOW	LITERAL1
+MODE_STRONG_REFLECTION	LITERAL1
+
+P20_HIGH_PRESENT	LITERAL1
+P20_LOW_PRESENT	LITERAL1
+P20_ALWAYS_LOW	LITERAL1
+P20_ALWAYS_HIGH	LITERAL1
+P20_PULSE_LOW	LITERAL1
+P20_PULSE_HIGH	LITERAL1
